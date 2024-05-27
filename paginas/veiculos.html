@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Veículos</title>
+    <link rel="icon" href="../imagens/logo.png">
+    <link rel="stylesheet" href="./veiculos.css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="barra-lateral">
+
+            <div class="logo">
+                <img src="../imagens/logo-name.png" width="220px" height="200px">
+            </div>
+
+            <div class="links-laterais">
+
+                <ul class="lista-lateral">
+                    <li>
+                        <img src="../imagens/losango.png" width="15px" height="15px"><a href="../index.html">Página
+                            Inicial</a>
+                    </li>
+                    <li>
+                        <img src="../imagens/losango.png" width="15px" height="15px"><a href="../paginas/esg.html">Sobre
+                            ESG</a>
+                    </li>
+                    <li>
+                        <img src="../imagens/losango.png" width="15px" height="15px"><a
+                            href="../paginas/emissao.html">Sobre emissão de CO2</a>
+                    </li>
+                    <li>
+                        <img src="../imagens/losango.png" width="15px" height="15px"><a
+                            href="../paginas/fontes.html">Fontes da Pesquisa</a>
+                    </li>
+                    <li>
+                        <img src="../imagens/losango.png" width="15px" height="15px"><a
+                            href="../paginas/grupo.html">Informações do Grupo</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="main-container">
+
+            <div class="barra-superior">
+                <div>
+                    <img src="../imagens/veiculos.png" width="30px" height="30px"><span>Consulta de Veículos</span>
+                </div>
+
+                <span class="underline">__________________________</span>
+
+            </div>
+
+            <div class="veiculos-container">
+
+                <div class="filtro-container">
+                    <span class="titulo-filtros">Consulta</span>
+
+                    <div class="filtro-container-quadros">
+
+                        <div class="wrapper">
+
+                            <div class="select-btn">
+                                <div class="select-btn-span">
+                                    <span class="texto-span">Escolha o Veículo</span>
+                                    <img class="seta-baixo" src="../imagens/seta-para-baixo.png" width="15px"
+                                        height="15px">
+                                </div>
+
+                                <div class="conteudo-marcas">
+                                    <ul class="lista-marcas">
+                                        <li class="opcao">
+                                            <span class="spanLi" id="1">AUDI / A3 Sportback</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="2">AUDI / A3 Sedan</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="3">BMW / 118i</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="4">BMW / 218i</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="5">BMW / iX1</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="6">BMW / X4</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="7">BMW / X6</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="8">BMW / X5</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="9">BMW / X3</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="10">BMW / X7</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="11">BMW / M3</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="12">BMW / M2</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="13">BYD / DOLPHIN MINI</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="14">BYD / DOLPHIN</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="15">BYD / D1</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="16">BYD / ET3</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="17">CAOA CHERY / ICAR EQ1</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="18">CAOA CHERY / ARRIZO 6</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="19">CHEVROLET / BOLT</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="20">CHEVROLET / BOLT EUV</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="21">CHEVROLET / ONIX</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="22">CHEVROLET / ONIX PLUS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="23">CHEVROLET / SPIN</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="24">CHEVROLET / CRUZE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="25">CHEVROLET / TRAILBLAZER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="26">CHEVROLET / CAMARO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="27">CITROEN / JUMPY</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="28">CITROEN / E-JUMPY</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="29">CITROEN / JUMPER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="30">FERRARI / ROMA</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="31">FERRARI / 296</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="32">FERRARI / PUROSANGUE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="33">FIAT / 500E</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="34">FIAT / MOBI</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="35">FIAT / ARGO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="36">FIAT / CRONOS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="37">FIAT / DUCATO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="38">FIAT / FIORINO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="39">FIAT / E-SCUDO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="40">FIAT / SCUDO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="41">FORD / Bronco Sport</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="42">FORD / Transit</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="43">FORD / Nova Ranger 4x4</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="44">FORD / Mustang</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="45">HONDA / CITY</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="46">HONDA / CITY HATCH</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="47">HONDA / HR-V</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="48">HONDA / CIVIC HYBRID</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="49">HONDA / ZR-V</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="50">HONDA / CIVIC</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="51">HYUNDAI / HB20</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="52">HYUNDAI / TUCSON TURBO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="53">HYUNDAI / KONA HEV</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="54">HYUNDAI / KONA EV</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="55">HYUNDAI / HB20S</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="56">HYUNDAI / CRETA</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="57">HYUNDAI / HR</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="58">JAGUAR / E-PACE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="59">JAGUAR / F-PACE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="60">JAGUAR / F-TYPE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="61">JEEP / COMPASS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="62">JEEP / RENEGADE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="63">JEEP / G CHEROKEE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="64">JEEP / COMMANDER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="65">JEEP / WRANGLER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="66">JEEP / GLADIATOR</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="67">KIA / STONIC</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="68">KIA / NIRO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="69">KIA / CARNIVAL</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="70">KIA / BONGO K2500 4X4 SC</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="71">KIA / BONGO K2500 4X4</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="72">LAND ROVER / RANGE ROVER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="73">LAND ROVER / RANGE ROVER SPORT</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="74">LAND ROVER / EVOQUE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="75">LAND ROVER / DISCOVERY SPORT</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="76">LAND ROVER / VELAR</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="77">LAND ROVER / DISCOVERY</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="78">LAND ROVER / DEFENDER 90</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="79">Mercedes-Benz / AMG A35 4MATIC</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="80">Mercedes-Benz / A200 AMG LINE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="81">Mercedes-Benz / GLC300 4M</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="82">Mercedes-Benz / GLE400D 4M</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="83">Mercedes-Benz / GLE450D 4M</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="84">Mercedes-Benz / 315CDI STREET</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="85">MINI / Cooper</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="86">MINI / JCW</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="87">MINI / Countryman</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="88">Mitsubishi / Eclipse Cross</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="89">Mitsubishi / L200 Triton</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="90">Mitsubishi / L200 Triton Sport</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="91">Nissan / Versa</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="92">Nissan / Kicks</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="93">Nissan / Frontier</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="94">PEUGEOT / E-208</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="95">PEUGEOT / 208</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="96">PEUGEOT / E2008</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="97">PEUGEOT / 2008</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="98">PEUGEOT / EXPERT</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="99">PEUGEOT / E-EXPERT</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="100">PEUGEOT / PARTNER RAPID</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="101">PEUGEOT / BOXER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="102">PORSCHE / CAYENNE</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="103">PORSCHE / BOXSTER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="104">PORSCHE / CAYMAN</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="105">PORSCHE / 911</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="106">PORSCHE / PANAMERA</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="107">PORSCHE / TAYCAN</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="108">Renault / E-KWID</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="109">Renault / Sandero</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="110">Renault / Logan</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="111">Renault / Zoe</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="112">Renault / Mégane</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="113">Renault / Kwid</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="114">Renault / Kardian</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="115">Renault / Master Bus</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="116">Renault / Master Chassis Cabine</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="117">Renault / Master PRO Furgão</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="118">Renault / Master Furgão</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="119">Renault / Kangoo</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="120">SUBARU / FORESTER</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="121">SUBARU / XV</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="122">TOYOTA / YARIS HATCHBACK</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="123">TOYOTA / YARIS SEDÃ</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="124">TOYOTA / HILUX DIESEL 4X4</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="125">VOLVO / EX30</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="126">VOLVO / XC60</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="127">VOLVO / XC40</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="128">VOLVO / XC90</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="129">VW / POLO</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="130">VW / VIRTUS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="131">VW / NIVUS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="132">VW / T CROSS</span>
+                                        </li>
+                                        <li class="opcao">
+                                            <span class="spanLi" id="133">VW / AMAROK</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="conteudo">
+                    <div class="conteudo-tela" id="conteudo-tela">
+                        <div class="div-info-fonte">
+                            <span class="span-info-fonte">OBS: Todos os dados foram retirados diretamente da planilha emitida pelo INMETRO em 2024.</span>
+                        </div>
+                        
+                        <div class="categoria-poluentes">
+                            <img src="../imagens/classe-poluente.jpg">
+                            <span class="span-fonte">Fonte: PROCONVE</span>
+                        </div>
+                        <div class="imagens-ocultas">
+                            <img src="" id="carro-imagem" alt="Carro" style="display: none;" width="600px"
+                                height="400px">
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>

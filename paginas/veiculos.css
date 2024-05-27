@@ -1,0 +1,259 @@
+
+/* TODA A TELA */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+}
+
+/* PARTE LATERAL ESQUERDO */
+
+.logo img {
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.lista-lateral a {
+    color: aliceblue;
+}
+
+.lista-lateral a:hover {
+    color: black;
+    transition: 0.2s ease;
+}
+
+.lista-lateral li {
+    display: flex;
+    margin-top: 20px;
+}
+
+li img {
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.barra-lateral {
+    background-color: #436ab2;
+    width: 300px;
+    height: 100vh;
+}
+
+/* PARTE SUPERIOR */
+
+.main-container {
+    display: inline-block;
+}
+
+.barra-superior { 
+    background-color:white;
+    height: 10vh;
+    width: 85vw;
+}
+
+.barra-superior .underline {
+    margin-left: 0;
+}
+
+.barra-superior div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.barra-superior span {
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+/* CONTEUDO CENTRAL */
+
+.conteudo {
+    background-color: #e3e2e2;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    height: 80vh;
+    width: 72vw;
+    text-align: justify;
+    padding: 30px 50px 30px 50px;
+    border-radius: 15px;
+}
+
+.conteudo::-webkit-scrollbar {
+    background-color:#e3e2e2;
+    width: 12px;
+    border-radius: 5px;
+}
+
+.conteudo::-webkit-scrollbar-thumb {
+    background-color: #a6a6a6;
+    border-radius: 15px;
+}
+
+/* PÁGINA (VEÍCULOS) */
+
+.veiculos-container {
+    display: flex;
+}
+
+.div-info-fonte {
+    margin-bottom: 10px;
+    background-color: #979090;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20%;
+}
+
+.categoria-poluentes {
+    display: grid;
+    margin-left: 25%;
+}
+
+.categoria-poluentes .span-fonte {
+    margin-left: 30%;
+    margin-top: 5px;
+}
+
+.imagens-ocultas {
+    margin-left: 28%;
+    margin-top: 40px;
+}
+
+.imagens-ocultas img {
+    border-radius: 5px;
+}
+
+.filtro-container-quadros {
+    display: grid;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.titulo-filtros {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+.filtro-container {
+    margin-bottom: 10px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 250px;
+    height: 450px;
+}
+
+/* FILTRO 03 */
+
+.wrapper {
+    background-color:#e3e2e2;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.lista-marcas::-webkit-scrollbar {
+    background-color:#e3e2e2;
+    width: 2px;
+}
+
+.lista-marcas::-webkit-scrollbar-thumb {
+    background-color: #a6a6a6;
+    border-radius: 15px;
+}
+
+.select-btn-span {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.select-btn-span .texto-span {
+    font-size: medium;
+}
+
+.select-btn-span img {
+    transition: transform 0.15s linear;
+}
+
+.wrapper.active .select-btn-span img {
+    transform: rotate(-180deg);
+}
+
+.select-btn-span:hover { 
+    cursor: pointer;
+}
+
+.conteudo-marcas {
+    margin-top: 5px;
+    display: none;
+    border-radius: 5px;
+}
+
+.wrapper.active .conteudo-marcas {
+    display: block;
+}
+
+.lista-marcas {
+    height: 35vh;
+    width: 17vw;
+    overflow-y: auto;
+}
+
+.lista-marcas li {
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.lista-marcas .spanLi {
+    font-size: small;
+}
+
+.lista-marcas li:hover {
+    background-color:#918d8d;
+}
+
+/* BOTÕES */
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #3bb9e0;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    border-radius: 5px;
+}
